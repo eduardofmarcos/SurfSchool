@@ -1,11 +1,13 @@
 /*
 
 orange color = #e67e22
+violet:b642f5
+#b5b7e6
 
 */
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
-/* BASIC SETUP*/
+/* setup*/
 /*-----------------------------------------------------------------------------------------------------------------------*/
 
 *{
@@ -33,7 +35,7 @@ html{
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
-/* REUSABLE COMPONENTS*/
+/* reusable components*/
 /*-----------------------------------------------------------------------------------------------------------------------*/
 
 
@@ -50,7 +52,7 @@ section{
     padding: 1%;
 }
 
-/* ---- HEADINGS ----*/
+/* ---- headings ----*/
 
 h1, 
 h2,
@@ -64,13 +66,13 @@ h1 {
     margin-top: 0;
     margin-bottom: 20px;
     color: #fff;
-    font-size: 240%;
+    font-size: 180%;
     letter-spacing: 1px;
     word-spacing: 4px;
 }
 
 h2 {
-    font-size: 180%;
+    font-size: 170%;
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
@@ -85,14 +87,14 @@ h3 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #e67e22;
+    background-color: #b5b7e6;
     content: " ";
     width: 100px;
     margin: 0 auto;
     margin-top: 30px;
 }
 
-/*-------PARAGRAPHS--------*/
+/*-------paragraphs--------*/
 
 .long-copy {
     line-height: 145%;
@@ -110,7 +112,7 @@ h2:after {
 .icon-big {
     font-size: 450%;
     display: block;
-    color: #e67e22;
+    color: #b5b7e6;
     margin-bottom: 10px;
 }
 
@@ -118,7 +120,7 @@ h2:after {
     display: inline-block;
     width: 30px;
     text-align: center;
-    color: #e67e22;
+    color: #b5b7e6;
     font-size: 120%;
     margin-right: 10px;
     
@@ -132,10 +134,10 @@ h2:after {
 
 a:link,
 a:visited {
-    color: #e67e22;
+    color: #b5b7e6;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #e67e22; 
+    border-bottom: 1px solid #b5b7e6; 
     transition: border-bottom 0.2s, color: 0.2s;
 }
 
@@ -160,36 +162,36 @@ a:active {
 
 .btn-full:link,
 .btn-full:visited {
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
+    background-color: #b5b7e6;
+    border: 1px solid #b5b7e6;
     color: #fff;
     margin-right: 15px;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #e67e22;
-    color: #e67e22;
+    border: 1px solid #b5b7e6;
+    color: #b5b7e6;
 }
 
 .btn:hover,
 .btn:active {
-    background-color: #cf6d17;
+    background-color: #b5b7e6;
 }
 
 .btn-full:hover,
 .btn-full:active {
-  border: 1px solid #cf6d17;
+  border: 1px solid #b5b7e6;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #cf6d17;
+    border: 1px solid #b5b7e6;
     color: #fff;
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
-/* HEADER */
+/* header */
 /*-----------------------------------------------------------------------------------------------------------------------*/
 
 
@@ -240,13 +242,13 @@ header{
 }
 
 .main-nav li a:hover{
-    color: #e67e22;
-    border-bottom: 1px solid #e67e22;
+    color: #b5b7e6;
+    border-bottom: 1px solid #b5b7e6;
 } 
 
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
-/* SECTION - FEATURES*/
+/* section - features*/
 /*-----------------------------------------------------------------------------------------------------------------------*/
 
 .section-features long-copy{
@@ -256,131 +258,73 @@ header{
 
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
-/* MEALS-SHOWCASE*/
+/*Section pics*/
 /*-----------------------------------------------------------------------------------------------------------------------*/
 
-.section-meals {
+.section-pics {
     padding: 0;
     
 }
-.meals-showcase {
+.pics-showcase {
     list-style: none;
     width:100%;
 }
 
-.meals-showcase li {
+.pics-showcase li {
     display: block;
     float: left;
     width: 25%;
 }
 
-.meal-photo {
+.beach-photo {
     widows: 100%;
-    margin: 0;
+    margin:0;
     overflow: hidden;
     background-color: #000;
 }
 
-.meal-photo img {
-    opacity: 0.7;
+.beach-photo img {
+    opacity: 0.8;
     width: 100%;
     height: auto;
     transform: scale(1.15);
     transition: transform 0.5s; opacity: 0.5s;
 }
 
-.meal-photo img:hover {
+.beach-photo img:hover {
     opacity: 1;
     transform: scale(1.03);
 }
 
 
-/*-----------------------------------------------------------------------------------------------------------------------*/
-/* HOW IT WORKS*/
-/*-----------------------------------------------------------------------------------------------------------------------*/
 
-.section-steps {
-    
-background-color:#f4f4f4;    
-    
-}
-
-.steps-box:first-child {
-    text-align: right;
-    padding-right: 3%;
-    margin-top: 30px;
-}
-
-.steps-box:last-child {
-    padding-left: 3%;
-    margin-top: 70px;
-}
-
-.app-screen {
-    width: 40%;
-}
-
-.work-steps {
-    margin-bottom: 50px;
-}
-
-.work-steps:last-of-type {
-    margin-bottom: 80px;
-}
-
-.work-steps div {
-    color: #e67e22;
-    border: 2px solid #e67e22;
-    display: inline-block;
-    border-radius: 50%;
-    height: 55px;
-    width: 55px;
-    text-align: center;
-    padding: 5px;
-    float: left;
-    font-size: 150%;
-    margin-right: 25px;
-}
-
-.button-app:link,
-.button-app:visited{ 
-border: 0;
-
-}
-
-.button-app img{
-    height: 50px;
-    width: auto;
-    margin-right: 10px;
-    
-}
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
-/* CITIES*/
+/* section instructors*/
 /*-----------------------------------------------------------------------------------------------------------------------*/
 
-.section-cities img {
+.section-instructors img {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
 }
 
-.section-cities h3 {
+.section-instructors h3 {
     text-align: center;
 }
 
-.city-feature{
+.instructor{
     
     margin-bottom: 5px;
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
-/* COSTUMERS*/
+/* Clients*/
 /*-----------------------------------------------------------------------------------------------------------------------*/
 
 
 .section-testimonials {
-    background-image: linear-gradient(rgba(0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/costBack.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -456,7 +400,7 @@ cite img {
     font-size: 300%;
     margin-bottom: 10px;
     font-weight: 100;
-    color: #e67e22;
+    color: #b5b7e6;
 }
 
 .plan-price span {
@@ -466,7 +410,7 @@ cite img {
     
 }
 
-.plan-price-meal {
+.plan-price-class {
     font-size: 80%;
     
 }
