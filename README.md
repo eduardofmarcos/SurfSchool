@@ -1,14 +1,18 @@
 ﻿# Surf School
 
+### About the project:
+
 A simple website project for a surfing school using some simple HTML and some advanced concepts of CSS3 (kind of :) ).
 
 Unfortunately the project did not worked out for the school and I decided just to finish to push here. There is still some adjusments on queries for the main nav to do.
 
-* I took it off the HTML content because it doesn’t matter anymore...
+I took it off the HTML content because it doesn’t matter anymore...
 
 No copyrights here. Feel free to do whatever you like with the code if you wish.
 
 All images are free from Unsplashed.com.
+
+#### Screenshots
 
 ![Captura de Tela_20200123212412](https://user-images.githubusercontent.com/44758312/73036703-2ac08f80-3e2b-11ea-9ac2-979cbc908d8d.png)
 ![Captura de Tela_20200123212422](https://user-images.githubusercontent.com/44758312/73036734-4461d700-3e2b-11ea-9095-f006c256ae87.png)
